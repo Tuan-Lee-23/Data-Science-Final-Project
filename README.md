@@ -1,5 +1,3 @@
-# Data-Science-Final-Project
-
 # Collaborators
 | Student's ID | Full name | Github account|
 | ----------- | ----------- | -------------|
