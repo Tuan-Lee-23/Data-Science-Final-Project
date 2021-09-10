@@ -11,14 +11,29 @@ Movies Revenue Forecast
 - `HCMUS` **Trần Trung Kiên** ([@ttkien](ttkien@fit.hcmus.edu.vn))
 - `HCMUS` **Phan Thị Phương Uyên** ([@ptpuyen](ptpuyen@fit.hcmus.edu.vn))
 
-![End semester](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/posterfilm.jpg)
+![End semester](https://res.cloudinary.com/practicaldev/image/fetch/s--hGvhAGUu--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/mih10uhu1464fx1kr0by.jpg)
 
 ---
 <div style="page-break-after: always"></div>
 
 # Description
-Our project name: Movies Revenue Forecast.  
-The project this time our team will be based on collecting data from TMDB, IMDB, and Box Office Mojo through Scrap information or API provided by the site. The team then preprocesses and visualizes some of the information contained in the dataset it collects. Data preprocessing and model building are here with the LightGBM model. Besides, use more Feature Engineering to discover features that have not appeared and re-evaluate. Finally, use more XGBoost to blend these models for the best results.
+## Movies Revenue Forecast.  
+The project this time our team will be based on collecting data from TMDB, IMDB, and Box Office Mojo through Scrap information or API provided by the site. The team then preprocesses and visualizes some of the information contained in the dataset it collects. Data preprocessing and model building are here with the LightGBM model. Besides, use Feature Engineering to discover features that have not appeared and re-evaluate. Finally, blend XGBoost with LightGBM for the best results.
+
+## Data
+![End semester](https://i.ibb.co/tHsCS5Q/Screenshot-2021-09-10-200927.png)
+
+## Workflow
+- Building dataset from TMDB api
+- Replace missing values (revenue, budget) with IMDB and Box Office Mojo  
+- Data exploring
+- Data cleaning
+- EDA
+- Build default model (LightGBM with default hyperparameters)
+- Feature engineering
+- Tuning hyperparameters
+- Train final model
+- Blend LightGBM with XGBoost for lower variance
 
 ---
 <div style="page-break-after: always"></div>
@@ -34,35 +49,22 @@ The project this time our team will be based on collecting data from TMDB, IMDB,
 
 # Project Organization
 ------------
+    notebooks/
+    ├─ Cleaning_+_EDA_+_Modeling.ipynb    (Main notebook)
+    ├─ Scrap IMDB data.ipynb    (scrape IMDB's budget)
+    ├─ box_office_mojo_revenue.ipynb    (scrape BoxOfficeMojo's revenue)
+    ├─ tmdb_api_request.ipynb    (data from TMDB api)
+    data/
+    ├─ raw/
+    │  ├─ budget.csv    (budget from imdb)
+    │  ├─ raw.zip   (data from tmdb api)
+    │  ├─ description.txt    (description of tmdb.csv)/
+    │  ├─ budget_revenue_tmdb.csv    (revenue from Box Office Mojo)
+    │  ├─ tdmb.csv
+    docs/
+    models/
+    ├─ best_params.pkl    (GridSearch tuned hyperparameters)
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    │
-    │
-    ├─────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 --------
