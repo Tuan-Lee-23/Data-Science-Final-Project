@@ -1,5 +1,6 @@
 Movies Revenue Forecast
 ==============================
+![End semester](https://res.cloudinary.com/practicaldev/image/fetch/s--hGvhAGUu--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/mih10uhu1464fx1kr0by.jpg)
 
 # Collaborators
 | Student's ID | Full name | Github account|
@@ -10,8 +11,6 @@ Movies Revenue Forecast
 ## Instructor
 - `HCMUS` **Trần Trung Kiên** ([@ttkien](ttkien@fit.hcmus.edu.vn))
 - `HCMUS` **Phan Thị Phương Uyên** ([@ptpuyen](ptpuyen@fit.hcmus.edu.vn))
-
-![End semester](https://res.cloudinary.com/practicaldev/image/fetch/s--hGvhAGUu--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/mih10uhu1464fx1kr0by.jpg)
 
 ---
 <div style="page-break-after: always"></div>
