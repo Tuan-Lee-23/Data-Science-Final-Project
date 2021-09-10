@@ -4,8 +4,8 @@ Movies Revenue Forecast
 # Collaborators
 | Student's ID | Full name | Github account|
 | ----------- | ----------- | -------------|
-| 18127245    | Lê Ngọc Tuấn| [@TuanLe23](https://github.com/Tuan-Lee-23)|
-| 18127113   | Võ Văn Quốc Huy |[@HuyVoMindX](https://github.com/HuyVoMindX)|   
+| `18127245`    | Lê Ngọc Tuấn| [@TuanLe23](https://github.com/Tuan-Lee-23)|
+| `18127113`   | Võ Văn Quốc Huy |[@HuyVoMindX](https://github.com/HuyVoMindX)|   
 
 ## Instructor
 - `HCMUS` **Trần Trung Kiên** ([@ttkien](ttkien@fit.hcmus.edu.vn))
@@ -13,8 +13,11 @@ Movies Revenue Forecast
 
 ![End semester](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/posterfilm.jpg)
 
+---
+<div style="page-break-after: always"></div>
+
 # Description
-Our project name: Movies Revenue Forecast
+Our project name: Movies Revenue Forecast.  
 The project this time our team will be based on collecting data from TMDB, IMDB, and Box Office Mojo through Scrap information or API provided by the site. The team then preprocesses and visualizes some of the information contained in the dataset it collects. Data preprocessing and model building are here with the LightGBM model. Besides, use more Feature Engineering to discover features that have not appeared and re-evaluate. Finally, use more XGBoost to blend these models for the best results.
 
 ---
