@@ -8,7 +8,7 @@ Movies Recommendation System
 | 18127113   | Võ Văn Quốc Huy |[@HuyVoMindX](https://github.com/HuyVoMindX)|   
 
 
-![End semester](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/posterfilm.jgp)
+![End semester](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/posterfilm.jpg)
 
 # Description
 A short description of the project.
