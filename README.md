@@ -1,4 +1,4 @@
-Movies Recommendation System
+Movies Revenue Forecast
 ==============================
 
 # Collaborators
@@ -7,11 +7,27 @@ Movies Recommendation System
 | 18127245    | Lê Ngọc Tuấn| [@TuanLe23](https://github.com/Tuan-Lee-23)|
 | 18127113   | Võ Văn Quốc Huy |[@HuyVoMindX](https://github.com/HuyVoMindX)|   
 
+## Instructor
+- `HCMUS` **Trần Trung Kiên** ([@ttkien](ttkien@fit.hcmus.edu.vn))
+- `HCMUS` **Phan Thị Phương Uyên** ([@ptpuyen](ptpuyen@fit.hcmus.edu.vn))
 
 ![End semester](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/posterfilm.jpg)
 
 # Description
-A short description of the project.
+Our project name: Movies Revenue Forecast
+The project this time our team will be based on collecting data from TMDB, IMDB, and Box Office Mojo through Scrap information or API provided by the site. The team then preprocesses and visualizes some of the information contained in the dataset it collects. Data preprocessing and model building are here with the LightGBM model. Besides, use more Feature Engineering to discover features that have not appeared and re-evaluate. Finally, use more XGBoost to blend these models for the best results.
+
+---
+<div style="page-break-after: always"></div>
+
+# Result
+    - Final result:
+        - MAPE(Mean Absolute Percentage Error): `0.06873`  
+        - R squared: `0.7692`
+![final_result](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/reports/Final_result.png)
+![shap](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/reports/SHAP.png)
+![tree](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/reports/Tree.png)
+
 
 # Project Organization
 ------------
@@ -43,7 +59,7 @@ A short description of the project.
     │
     │
     │
-    │
+    ├─────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 --------
