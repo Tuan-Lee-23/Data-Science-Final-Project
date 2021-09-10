@@ -8,6 +8,8 @@ Movies Recommendation System
 | 18127113   | Võ Văn Quốc Huy |[@HuyVoMindX](https://github.com/HuyVoMindX)|   
 
 
+![End semester](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/posterfilm.jgp)
+
 # Description
 A short description of the project.
 
@@ -39,25 +41,9 @@ A short description of the project.
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-        ├── __init__.py    <- Makes src a Python module
-        │
-        ├── data           <- Scripts to download or generate data
-        │   └── make_dataset.py
-        │
-        ├── features       <- Scripts to turn raw data into features for modeling
-        │   └── build_features.py
-        │
-        ├── models         <- Scripts to train models and then use trained models to make
-        │   │                 predictions
-        │   ├── predict_model.py
-        │   └── train_model.py
-        │
-        └── visualization  <- Scripts to create exploratory and results oriented visualizations
-            └── visualize.py
-    
-
+    │
+    │
+    │
 
 
 --------
