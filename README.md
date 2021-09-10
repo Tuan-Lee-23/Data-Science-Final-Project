@@ -39,8 +39,8 @@ The project this time our team will be based on collecting data from TMDB, IMDB,
 
 # Result
     - Final result:
-        - MAPE(Mean Absolute Percentage Error): `0.06873`  
-        - R squared: `0.7692`
+	- MAPE (mean absolute percentage error): `0.0832`
+	- R squared: `0.703`
 ![final_result](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/reports/Final_result.png)
 ![shap](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/reports/SHAP.png)
 ![tree](https://github.com/Tuan-Lee-23/Data-Science-Final-Project/blob/main/reports/Tree.png)
